@@ -20,4 +20,9 @@ public class Artikl {
     public int getCijena() {
         return this.price;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
